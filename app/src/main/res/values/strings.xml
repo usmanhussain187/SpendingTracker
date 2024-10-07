@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Spending Tracker</string>
+    <string name="spending_tracker">Spending Tracker</string>
+    <string name="transaction_type_income">Income</string>
+    <string name="transaction_type_expense">Expense</string>
+
+
+    <string-array name="sort_fields">
+        <item>Amount</item>
+        <item>Date</item>
+        <item>Category</item>
+    </string-array>
+    <string-array name="sort_order">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>
+
+    <string-array name="sort_fields_without_date">
+        <item>Amount</item>
+        <item>Category</item>
+    </string-array>
+
+</resources>

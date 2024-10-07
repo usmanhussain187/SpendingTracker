@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_colour"
+    tools:context=".TipsActivity">
+
+
+    <TextView
+        android:id="@+id/textViewSavingsTargetTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Money Saving Tips"
+        android:textColor="#E6E6E6"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="339dp"
+        android:layout_height="531dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/white_background2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout_tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Add your tips here -->
+
+            <TextView
+                android:id="@+id/textView_tip1"
+                android:layout_width="297dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="36dp"
+                android:text="1. Create a budget to keep track of your income and expenses."
+                android:textColor="#161716"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.509"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView_tip2"
+                android:layout_width="293dp"
+                android:layout_height="45dp"
+                android:text="2. Track your expenses to identify areas where you cut back."
+                android:textColor="#161716"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_tip1" />
+
+            <TextView
+                android:id="@+id/textView_tip3"
+                android:layout_width="293dp"
+                android:layout_height="45dp"
+                android:text="3. Set savings goals and allocate a portion of your income towards them."
+                android:textColor="#161716"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_tip2" />
+
+            <TextView
+                android:id="@+id/textView_tip4"
+                android:layout_width="293dp"
+                android:layout_height="45dp"
+                android:text="4. Cut unnecessary expenses like unused subscriptions and dining out."
+                android:textColor="#161716"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_tip3" />
+
+            <TextView
+                android:id="@+id/textView_tip5"
+                android:layout_width="293dp"
+                android:layout_height="45dp"
+                android:text="5. Use coupons and discounts when making purchases."
+                android:textColor="#161716"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_tip4" />
+
+            <TextView
+                android:id="@+id/textView_tip6"
+                android:layout_width="293dp"
+                android:layout_height="45dp"
+                android:text="6. Consider buying used or refurbished items where possible."
+                android:textColor="#161716"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_tip5" />
+
+            <TextView
+                android:id="@+id/textView_tip7"
+                android:layout_width="293dp"
+                android:layout_height="45dp"
+                android:text="7. Compare prices before making big purchases."
+                android:textColor="#161716"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_tip6" />
+
+            <TextView
+                android:id="@+id/textView_tip8"
+                android:layout_width="293dp"
+                android:layout_height="45dp"
+                android:text="8. Unplug electronics when not in use to save on electricity costs."
+                android:textColor="#161716"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_tip7" />
+
+            <TextView
+                android:id="@+id/textView_tip9"
+                android:layout_width="293dp"
+                android:layout_height="45dp"
+                android:text="9. Sell unused or unwanted items online to make some extra money."
+                android:textColor="#161716"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_tip8" />
+
+            <TextView
+                android:id="@+id/textView_tip10"
+                android:layout_width="293dp"
+                android:layout_height="45dp"
+                android:text="10. Use public transportation, carpool, or bike to save on fuel and transportation costs."
+                android:textColor="#161716"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_tip9" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

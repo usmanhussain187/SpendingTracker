@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_background2"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinner_sort_field"
+        android:background="@drawable/text_background"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:entries="@array/sort_fields_without_date" />
+
+    <Spinner
+        android:id="@+id/spinner_sort_order"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/text_background"
+        android:entries="@array/sort_order" />
+
+    <Button
+        android:id="@+id/btn_apply_sorting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_button"
+        android:textColor="@color/white"
+        android:text="Apply" />
+
+</LinearLayout>
